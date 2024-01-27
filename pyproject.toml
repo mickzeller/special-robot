@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "special-robot"
+version = "0.1.0"
+description = "My basic, yet charming Python Virtual Assistant"
+authors = ["mickzeller <mickzeller@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+SpeechRecognition = "^3.10.1"
+gTTS = "2.5.0"
+wikipedia = "1.4.0"
+pyttsx3 = "2.90"
+black = "^24.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
